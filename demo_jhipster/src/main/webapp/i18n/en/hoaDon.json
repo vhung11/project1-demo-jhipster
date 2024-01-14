@@ -1,0 +1,26 @@
+{
+  "demoJhipsterApp": {
+    "hoaDon": {
+      "home": {
+        "title": "Hoa Dons",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Hoa Don",
+        "createOrEditLabel": "Create or edit a Hoa Don",
+        "notFound": "No Hoa Dons found"
+      },
+      "created": "A new Hoa Don is created with identifier {{ param }}",
+      "updated": "A Hoa Don is updated with identifier {{ param }}",
+      "deleted": "A Hoa Don is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Hoa Don {{ id }}?"
+      },
+      "detail": {
+        "title": "Hoa Don"
+      },
+      "id": "ID",
+      "tongTien": "Tong Tien",
+      "ngayMua": "Ngay Mua",
+      "khachHang": "Khach Hang"
+    }
+  }
+}

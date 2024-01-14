@@ -1,0 +1,13 @@
+entity KhachHang {
+TenKhachHang String
+DiaChi String
+}
+
+entity HoaDon {
+TongTien Long
+NgayMua LocalDate
+}
+
+relationship ManyToOne {
+HoaDon{KhachHang(TenKhachHang)} to KhachHang
+}

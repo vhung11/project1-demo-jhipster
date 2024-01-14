@@ -1,0 +1,20 @@
+{
+  "annotations": {
+    "changelogDate": "20240114043128"
+  },
+  "applications": "*",
+  "entityTableName": "khach_hang",
+  "fields": [
+    {
+      "fieldName": "tenKhachHang",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "diaChi",
+      "fieldType": "String"
+    }
+  ],
+  "name": "KhachHang",
+  "relationships": [],
+  "searchEngine": "no"
+}

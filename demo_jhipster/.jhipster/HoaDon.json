@@ -1,0 +1,28 @@
+{
+  "annotations": {
+    "changelogDate": "20240114043228"
+  },
+  "applications": "*",
+  "entityTableName": "hoa_don",
+  "fields": [
+    {
+      "fieldName": "tongTien",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "ngayMua",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "HoaDon",
+  "relationships": [
+    {
+      "otherEntityField": "tenKhachHang",
+      "otherEntityName": "khachHang",
+      "relationshipName": "khachHang",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}
